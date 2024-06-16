@@ -1,0 +1,76 @@
+{
+	"name": "useful-lib",
+	"version": "0.0.1",
+	"description": "",
+	"type": "module",
+	"packageManager": "pnpm@9.2.0+sha256.94fab213df221c55b6956b14a2264c21c6203cca9f0b3b95ff2fe9b84b120390",
+	"license": "MIT",
+	"keywords": [
+		"typescript",
+		"ts",
+		"dom",
+		"log",
+		"javascript"
+	],
+	"funding": [
+		{
+			"type": "Patreon",
+			"url": "https://patreon.com/"
+		},
+		{
+			"type": "Paypal",
+			"url": "https://paypal.com/"
+		}
+	],
+	"author": "OctaEDLP00 <octavio.pincha@gmail.com> (https://github.com/OctaEDLP00)",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OctaEDLP00/useful-lib"
+	},
+	"bugs": {
+		"email": "octavio.pincha@gmail.com",
+		"url": "https://github.com/OctaEDLP00/useful-lib/issues"
+	},
+	"devDependencies": {
+		"@s-ui/mono": "2.45.0",
+		"@types/eslint": "8.56.10",
+		"@types/node": "20.14.2",
+		"@typescript-eslint/eslint-plugin": "6.21.0",
+		"@typescript-eslint/parser": "6.21.0",
+		"eslint-config-prettier": "9.1.0",
+		"eslint-config-standard-with-typescript": "43.0.1",
+		"eslint-plugin-import": "2.29.1",
+		"eslint-plugin-n": "16.6.2",
+		"eslint-plugin-promise": "6.2.0",
+		"eslint": "8.56.0",
+		"prettier": "3.3.2",
+		"tsup": "8.1.0",
+		"typescript": "5.4.5",
+		"vitest": "1.6.0"
+	},
+	"dependencies": { },
+	"peerDependencies": { },
+	"scripts": {
+		"co": "sui-mono commit",
+		"clean": "rm -rf dist/*",
+		"lint": "ts-standard",
+		"lint:fix": "ts-standard --fix",
+		"build": "pnpm run clean && tsc",
+		"build:watch": "pnpm run build -- -w",
+		"release": "standard-version",
+		"release:first": "npm run release -- --first-realease",
+		"publish": "pnpm publish --access public",
+		"pack": "pnpm pack",
+		"test": "vitest"
+	},
+	"workspaces": {
+		"packages": [
+			"packages/*",
+			"test-lib"
+		]
+	},
+	"eslintConfig": { },
+	"prettier": {
+		"filepath": "./.prettierrc.cjs"
+	}
+}

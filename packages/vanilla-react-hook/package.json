@@ -1,0 +1,21 @@
+{
+	"bugs": "https://github.com/OctaEDLP00/useful-lib/issues",
+	"homepage": "https://github.com/OctaEDLP00/useful-lib",
+	"license": "MIT",
+	"main": "./dist/packages/vanilla-react-hook/index.js",
+	"name": "@useful-lib/vanilla-react-hook",
+	"type": "module",
+	"types": "./types.d.ts",
+	"version": "0.0.1",
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/OctaEDLP00/useful-lib",
+		"directory": "packages/vanilla-react-hook"
+	},
+	"files": [
+		"index.ts",
+		"use-state.ts",
+		"use-effect.ts",
+		"types.d.ts"
+	]
+}

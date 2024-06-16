@@ -1,0 +1,18 @@
+{
+	"bugs": "https://github.com/OctaEDLP00/useful-lib/issues",
+	"homepage": "https://github.com/OctaEDLP00/useful-lib",
+	"license": "MIT",
+	"name": "@useful-lib/magnifying-glass",
+	"type": "module",
+	"types": "./types.d.ts",
+	"version": "0.0.1",
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/OctaEDLP00/useful-lib",
+		"directory": "packages/magnifying-glass"
+	},
+	"files": [
+		"index.ts",
+		"types.d.ts"
+	]
+}

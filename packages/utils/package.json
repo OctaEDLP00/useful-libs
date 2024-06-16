@@ -1,0 +1,23 @@
+{
+	"bugs": "https://github.com/OctaEDLP00/useful-lib/issues",
+	"homepage": "https://github.com/OctaEDLP00/useful-lib",
+	"license": "MIT",
+	"main": "./dist/packages/utils/index.js",
+	"name": "@useful-lib/utils",
+	"type": "module",
+	"types": "./types.d.ts",
+	"version": "0.0.1",
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/OctaEDLP00/useful-lib",
+		"directory": "packages/utils"
+	},
+	"files": [
+		"dom.ts",
+		"consts.ts",
+		"falsify.ts",
+		"logs.ts",
+		"index.ts",
+		"types.d.ts"
+	]
+}

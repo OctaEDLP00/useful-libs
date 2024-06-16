@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"paths": {
+			"@packages/*": [ "packages/*" ]
+		},
+		"strict": true,
+		"noImplicitAny": true,
+		"esModuleInterop": true,
+		"strictNullChecks": true,
+		"declaration": true,
+		"isolatedModules": true,
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+		"target": "ESNext",
+		"module": "CommonJS",
+		"moduleResolution": "Node10",
+		"outDir": "dist",
+		"types": [
+			"vitest/importMeta"
+		]
+	},
+	"exclude": [ "node_modules" ],
+}
